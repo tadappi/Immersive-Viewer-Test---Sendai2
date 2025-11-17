@@ -43,13 +43,13 @@ var APP_DATA = {
         {
           "yaw": 0.798292065848619,
           "pitch": 0.1164885469657051,
-          "title": "五橋中学校<div><br></div>",
+          "title": "五橋中学校",
           "text": "<a href='itsutsubashi.mp4'></a>"
         },
         {
           "yaw": -0.01247549371850809,
           "pitch": 0.32040285593103945,
-          "title": "サンモール1番街<div><br></div>",
+          "title": "サンモール1番街",
           "text":  "<a href='sun mall.mp4'></a>"
         },
         {
