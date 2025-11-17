@@ -239,11 +239,12 @@ body.single-scene #sceneListToggle {
   object-fit: contain;
 }
 
-/* ラベルのアニメーション */
+/* ===== ラベル：常に表示 ===== */
+/* ここを「ホバーで出る」→「最初からずっと見える」に変更 */
 .iv-label {
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.25s ease;
+  opacity: 1 !important;      /* いつでも表示 */
+  pointer-events: auto;       /* 必要ならクリックも可。いらなければ none に変えてOK */
+  transition: none;           /* フェード演出が不要なら none */
 }
 
 /* ================================ */
